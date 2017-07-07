@@ -120,4 +120,6 @@ by [Lokesh Dhakar](http://www.lokeshdhakar.com)
 - grunt build
 - Push to Github repo
 - Create a new Github release along with tag. Naming convention for both ```v2.8.1```
-“# lince”
+# lince
+# This software uses PHP, MySQL, HTML5, CSS3 and JQuery
+
