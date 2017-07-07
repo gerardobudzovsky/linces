@@ -1,0 +1,162 @@
+body{
+	background-color: #000000;
+	font-family: Arial, Tahoma;
+}
+
+#contenedor {
+	width: 960px;
+	height: 920px;
+	/*background-color: purple; SACAR COLOR*/
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#cabecera {
+	width: 960px;
+	height: 150px;
+	/*background-color: green; SACAR COLOR*/
+}
+
+	#marca{
+		width: 330px;
+		height: 40px;
+		/*background-color: lime; SACAR COLOR*/
+	}
+	
+		#marca h1{
+			margin:0px;
+			color: #ffff00;
+			font-size: 32px;
+			text-shadow: 2px 2px 5px #ffff00;
+		}
+	
+	#logo{
+		width:auto;
+		heigth: 110px;
+		float: left;
+	}
+	
+		#logo img{
+			width: 117px;
+			height: 100px;
+		}
+		
+	#redes{
+		width: auto;
+		height: 40px;
+		/*background-color: yellow; SACAR COLOR*/
+		float: right;
+		margin-bottom: 30px;
+	}
+	
+		#redes img{
+			width: auto; 
+			height: 38px;
+		}
+
+	#botonera_principal{
+		width: 480px;
+		height: 40px;
+		/*background-color: olive; SACAR COLOR*/
+		clear: right;
+		float: right;
+	}
+	
+		#botonera_principal ul{
+			margin: 0;
+			padding: 0;
+			list-style-type: none;
+			
+		}
+		
+		#botonera_principal ul li {
+			display: inline;
+		}
+			
+		#botonera_principal ul li a{
+			display: inline-block;
+			text-decoration: none;
+			color: #ffff00;
+			background-color:#ff6600;
+			padding: 10px;
+			border-radius: 10px;
+		}
+
+				#botonera_principal ul li a:hover{
+					color: #000000;
+				}
+
+#contenido {
+	width: 960px;
+	height: 730px;
+	/*background-color: aqua;*/
+}
+	
+	#lateral_izq{
+		width: 480px;
+		height: 730px;
+		/*background-color: red; SACAR COLOR*/
+		float: left;
+	}
+		
+		#imagen1, #imagen2{
+			width: 460px;
+			height: 345px;
+			margin: 10px;
+			/*background-color: white; SACAR COLOR*/
+			/*background-size: cover;
+			border-radius: 5px;*/
+		}
+		
+		/*
+		#imagen1 {
+			background-image: url(images/lince-africano.jpg);
+		}
+		
+		#imagen2 {
+			background-image: url(images/lince-boreal.jpg)
+		}
+		*/
+
+	#lateral_der{
+		width: 480px;
+		height: 730px;
+		/*background-color: orange; SACAR COLOR*/
+		float: right; 
+	}
+	
+		#imagen3{
+			width: 460px;
+			height: 259px;
+			margin: 10px;
+			/*background-color: white; SACAR COLOR*/
+			/*background-image: url(images/lince-iberico.jpg);*/
+			/*background-size: cover;
+			border-radius: 5px;*/
+		}
+		
+		#info{
+			width: 460px;
+			height: 431px;
+			margin: 10px;
+			/*background-color: green; SACAR COLOR*/
+			color: #ffff00;
+		}
+			#info h2{
+				text-shadow: 2px 2px 5px #ffff00;
+			}
+		
+		#formulario{
+			width: 460px;
+			/*height: 431px;*/
+			margin: 10px;
+			color: #ffff00;
+		}
+	
+#pie{
+	width: 960px;
+	height: 40px;
+	/*background-color: fuchsia;*/
+	color: #ffff00;
+	font-size: 14px;
+}
